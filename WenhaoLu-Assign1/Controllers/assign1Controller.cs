@@ -7,13 +7,23 @@ using System.Web.Http;
 
 namespace WenhaoLu_Assign1.Controllers
 {
-    public class question1Controller : ApiController
+    public class assign1Controller : ApiController
     {
         [HttpGet]
         public int AddTen(int id)
         {
             return 10 + id;
         }
+
+        [HttpGet]
+        public int Square(int id)
+        {
+            return id * id;
+        }
+
+
+
+
 
 
 
