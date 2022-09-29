@@ -27,8 +27,11 @@ namespace WenhaoLu_Assign1.Controllers
             return "Hello World!";
         }
 
-      
-
+        [HttpGet]
+        public string Greeting(int id)
+        {
+            return "Greetings to " + id + " people!";
+        }
 
 
 
