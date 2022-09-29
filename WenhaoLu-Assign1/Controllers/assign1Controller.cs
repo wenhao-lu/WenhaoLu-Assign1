@@ -21,8 +21,13 @@ namespace WenhaoLu_Assign1.Controllers
             return id * id;
         }
 
+        [HttpPost]
+        public string Greeting()
+        {
+            return "Hello World!";
+        }
 
-
+      
 
 
 
