@@ -33,7 +33,11 @@ namespace WenhaoLu_Assign1.Controllers
             return "Greetings to " + id + " people!";
         }
 
-
+        [HttpGet]
+        public int NumberMachine(int id)
+        {
+            return id + id  id - id  id * id  id / id;
+        }    
 
 
     }
