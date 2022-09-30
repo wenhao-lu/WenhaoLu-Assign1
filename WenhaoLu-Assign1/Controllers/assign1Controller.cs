@@ -36,7 +36,7 @@ namespace WenhaoLu_Assign1.Controllers
         [HttpGet]
         public int NumberMachine(int id)
         {
-            return id + id  id - id  id * id  id / id;
+            return id * 12 / 3 - 2 + 17;   
         }    
 
 
