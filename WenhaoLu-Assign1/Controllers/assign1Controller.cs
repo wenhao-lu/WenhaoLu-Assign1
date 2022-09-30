@@ -120,7 +120,7 @@ namespace WenhaoLu_Assign1.Controllers
             return HostingCost;
             }
 
-            if (id > 15)
+            if (id >= 15)
             {
                 var timeFN = Math.Round(id / 14m);
                 IEnumerable<string> HostingCost = new string[] {timeFN + " fortnights at $5.5/FN = $" + timeFN * 5.5 + "CAD", "HST 13% = $" + timeFN * 5.5 * 0.13 + " CAD", "Total = $" + timeFN * 5.5*1.13 + "CAD" };
